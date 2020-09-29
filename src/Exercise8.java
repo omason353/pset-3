@@ -20,5 +20,8 @@ public class Exercise8 {
         System.out.println(busses+1);
         System.out.print("Overflow Passengers: ");
         System.out.println(overflow);
+
+        scanner.close();
+
     }
 }

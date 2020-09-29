@@ -30,5 +30,8 @@ public class Exercise5 {
 
         System.out.printf("%.2f", overallGrade);
         System.out.print("%");
+
+        scanner.close();
+
     }
 }

@@ -23,5 +23,8 @@ public class Exercise9 {
         System.out.printf("%.0f", nickles);
         System.out.print("\nPennies: ");
         System.out.printf("%.0f", pennies);
+
+        scanner.close();
+
     }
 }

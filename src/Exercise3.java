@@ -17,5 +17,7 @@ public class Exercise3 {
 
         System.out.printf("%,.2f", area);
         System.out.print(" square milimeters.");
+
+        scanner.close();
     }
 }

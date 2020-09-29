@@ -24,5 +24,8 @@ public class Exercise7 {
         double totalPay = salary * 1-taxTotal;
         System.out.print("$");
         System.out.printf("%,.2f", totalPay);
+
+        scanner.close();
+
     }
 }

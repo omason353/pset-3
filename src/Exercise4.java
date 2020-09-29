@@ -17,6 +17,8 @@ public class Exercise4 {
 
         System.out.printf("%,.2f", perimiter);
         System.out.print(" centimeters.");
+
+        scanner.close();
     }
 }
 

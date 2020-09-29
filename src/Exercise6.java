@@ -32,5 +32,8 @@ public class Exercise6 {
         double totalPay = totalHours * wage;
         System.out.print("$");
         System.out.printf("%,.2f", totalPay);
+
+        scanner.close();
+
     }
 }

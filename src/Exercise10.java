@@ -15,5 +15,7 @@ public class Exercise10 {
         System.out.printf("%.2f", celsius);
         System.out.print("\nKelvin: ");
         System.out.printf("%.2f", kelvin);
+        scanner.close();
+
     }
 }

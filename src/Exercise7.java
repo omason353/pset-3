@@ -18,10 +18,9 @@ public class Exercise7 {
         System.out.print("State: ");
         double state = scanner.nextDouble();
 
-        double taxTotal = (fourOneK + federal + state)/100;
 
-
-        double totalPay = salary * 1-taxTotal;
+        salary = salary*(1-(fourOneK/100));
+        double totalPay = salary*(1-((federal+state)/100));
         System.out.print("$");
         System.out.printf("%,.2f", totalPay);
 
